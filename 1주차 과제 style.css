@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    background:black;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#name_sns p{
+    font-size:10px;
+    margin:0;
+}
+
+#name_sns h1{
+    font-size: 50px;
+    margin:0;
+    padding:0;
+}
+
+#name_sns{
+    color:white;
+    border-bottom:3px solid hotpink;
+    margin:0;
+    padding:75px 20px 3px 20px;
+}
+
+.menu{
+    color:white;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    text-align: center;
+    font-family: cursive;
+    font-size:30px;
+    border-bottom:2px solid gray;
+}
+
+#intro img{
+    float:left;
+}
+
+#intro{
+    height:159px;
+}
+
+#picturepage{
+    text-align: center;
+    padding-top:1em;
+    border-bottom: 1px solid red;
+}
+
+#aboutme{
+    font-family:serif;
+    color:white;
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top:20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 500px;
+  }
+
+#aboutme div{
+  color:#ff000030;
+  font-size:100px;
+  margin-left: 237px;
+  margin-top: 60px;
+}
+
+#education{
+    color:white;
+    font-size: 30px;
+    border-bottom: 1px solid yellow;
+    line-height: 50px;
+    display:grid;
+    grid-template-columns: 800px 500px;
+}
+#education div{
+  color:#006f003d;
+  font-size: 100px;
+  margin-top: 80px;
+  margin-left:220px;
+
+}
+#education td{
+    font-style: italic;
+}
+#education th{
+  background-color: #093b54;
+}
+
+#favorite{
+  color:white;
+  font-family: monospace;
+  border: 5px #20345a82 solid;
+  border-radius: 20px;
+  margin: 64px 234px 200px 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#favorite span{
+  text-align: center;
+  font-size: 40px;
+  padding: 5px
+}
+
+#favorite_back{
+
+  color:#ffff0030;
+  font-size: 100px;
+  margin-top:40px;
+}
+
+
+/* Footer */
+.footer {
+  /* Footer container */
+  display: flex;
+  /* 가로 정렬 */
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+    margin-left: 16px;
+    margin-top: 16px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 110px 500px 1fr;
+}
+
+
+#github_logo {
+    width: 45px;
+    height: 45px;
+    background-image: url("pic/github_logo.png");
+    background-size: 100%;
+    margin-left:5px
+}
+#insta_logo {
+    width: 32px;
+    height: 32px;
+    background-image: url("pic/instar_logo.png");
+    background-size: 100%;
+    margin-left:6px;
+    margin-top:5px;
+
+}
+#velog_logo {
+    width: 32px;
+    height: 32px;
+    background-image: url("pic/velog_logo.png");
+    background-size: 100%;
+    margin-top: 5px;
+    margin-left:1px;
+}
+#wecode_logo{
+  width:100px;
+  height:20px;
+  background-image: url("pic/wecode.png");
+  background-size: 100%;
+  margin-top:16px;
+}
+
+.footer p {
+    margin-left: 65%;
+    margin-top: 3px;
+    color: white;
+}
