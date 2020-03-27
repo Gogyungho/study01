@@ -114,12 +114,10 @@ a{
   margin-top:40px;
 }
 
+/* footer */
 
-/* Footer */
 .footer {
-  /* Footer container */
   display: flex;
-  /* 가로 정렬 */
   flex-direction: row;
   height: 50px;
   width: 100%;
