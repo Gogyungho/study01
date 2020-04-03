@@ -2,56 +2,88 @@ body{
     margin:0;
     background:black;
 }
-
-a{
-    text-decoration: none;
-    color:white;
-}
-
-#name_sns p{
-    font-size:10px;
-    margin:0;
-}
-
-#name_sns h1{
-    font-size: 50px;
-    margin:0;
-    padding:0;
-}
-
-#name_sns{
-    color:white;
-    border-bottom:3px solid hotpink;
-    margin:0;
-    padding:75px 20px 3px 20px;
-}
-
-.menu{
-    color:white;
-    display:grid;
-    grid-template-columns: repeat(5, 1fr) ;
-    text-align: center;
-    font-family: cursive;
-    font-size:30px;
-    border-bottom:2px solid gray;
-}
-
 #intro img{
     float:left;
 }
 
 #intro{
-    height:159px;
+    position : fixed;
+    display: flex;
+    height:160px;
 }
+
+#name p{
+    color:gray;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:30px;
+    margin:0;
+
+}
+
+#name h1{
+    color:#4fffc7;
+    font-family: 'Candal', sans-serif;
+    font-size: 50px;
+    margin:0;
+    padding:0;
+    text-shadow: 4px 2px 5px #fb89b4;
+
+}
+#name h1:hover{
+    color:#bd50ff;
+    text-shadow: 4px 2px 5px #6afdb1;
+
+}
+
+#name{
+    border-bottom:3px solid hotpink;
+    margin:0;
+    padding:0;
+}
+
+#menu{
+    height : 30px;
+    margin-left:600px;
+}
+
+#menu ul, li {
+    list-style: none;
+    color:white;
+    background-color: #2d2d2d;
+    float : left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    padding:0;
+}
+
+#menu .menuLink{
+  text-decoration: none;
+  color: white;
+  display: block;
+  width : 250px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Comic Neue', cursive;
+}
+
+#menu .menuLink:hover{
+  color : red;
+  background-color: #4d4d4d;
+}
+
+
+
 
 #picturepage{
     text-align: center;
-    padding-top:1em;
+    padding-top:75px;
+    padding-bottom: 5px;
     border-bottom: 1px solid red;
 }
 
 #aboutme{
-    font-family:serif;
+    font-family:'Comic Neue', cursive;
     color:white;
     text-align: left;
     font-size: 30px;
@@ -65,8 +97,8 @@ a{
 #aboutme div{
   color:#ff000030;
   font-size:100px;
-  margin-left: 237px;
-  margin-top: 60px;
+  padding-top:50px;
+  padding-left:100px;
 }
 
 #education{
@@ -77,11 +109,21 @@ a{
     display:grid;
     grid-template-columns: 800px 500px;
 }
+#education a{
+  text-decoration: none;
+  color:white;
+}
+#education a:hover{
+    color:#00c2ff;
+}
+
+
 #education div{
   color:#006f003d;
+  font-family: 'Comic Neue', cursive;
   font-size: 100px;
   margin-top: 80px;
-  margin-left:220px;
+  margin-left:195px;
 
 }
 #education td{
@@ -93,7 +135,7 @@ a{
 
 #favorite{
   color:white;
-  font-family: monospace;
+  font-family: 'Patrick Hand', cursive;
   border: 5px #20345a82 solid;
   border-radius: 20px;
   margin: 64px 234px 200px 300px;
@@ -108,7 +150,7 @@ a{
 }
 
 #favorite_back{
-
+  font-family: 'Comic Neue', cursive;
   color:#ffff0030;
   font-size: 100px;
   margin-top:40px;
@@ -117,14 +159,12 @@ a{
 /* footer */
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  height: 50px;
-  width: 100%;
+    height: 20%;
+    width: 100%;
     margin-left: 16px;
     margin-top: 16px;
-  display: grid;
-  grid-template-columns: 50px 50px 50px 110px 500px 1fr;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 110px 500px 1fr;
 }
 
 
@@ -157,11 +197,12 @@ a{
   height:20px;
   background-image: url("pic/wecode.png");
   background-size: 100%;
-  margin-top:16px;
+  margin-top:12px;
 }
 
-.footer p {
-    margin-left: 65%;
-    margin-top: 3px;
-    color: white;
-}
+
+
+/*
+footer {
+  background-color: gray;
+} */
